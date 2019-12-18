@@ -3,8 +3,9 @@ let height = 768;
 let scale = 32;
 
 let images = [];
-let music;
+let music = musicRandom();
 
+music.play();
 let offCanvas = document.createElement('canvas');
 let offCtx = offCanvas.getContext('2d');
 let body = document.getElementsByTagName("body")[0];
@@ -147,5 +148,5 @@ function musicRandom() {
 
     console.log (music[num])
     
-
+        return music[num];
 }
