@@ -273,10 +273,10 @@ class Canvas {
         let tile = 1;
         let jump = 0;
         if (player.speed.y != 0) {
-            tile = Math.floor(Date.now() / 180) % 3;
-            jump = 1;
+            tile = Math.floor(Date.now() / 180) % 5;
+            jump = 0;
         } else if (player.speed.x != 0) {
-            tile = Math.floor(Date.now() / 60) % 6;
+            tile = Math.floor(Date.now() / 60) % 5;
         }
 
         // this.actorsCtx.clearRect(player.prevX , player.prevY , width, height);

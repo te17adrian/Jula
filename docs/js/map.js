@@ -41,24 +41,24 @@ let sources = {
         offsetY: 0
     },
     enemy: {
-        src: 'img/sprites/player.png',
-        srcWidth: 128,
-        srcHeight: 32,
-        width: 32,
-        height: 32,
-        offsetX: 0,
-        offsetY: 0
-    },
-    enemy2: {
-        src: 'img/sprites/player2.png',
-        srcWidth: 128,
-        srcHeight: 32,
-        width: 32,
-        height: 32,
+        src: 'img/fiende2.png',
+        srcWidth: 616,
+        srcHeight: 127,
+        width: 154,
+        height: 127,
         offsetX: 0,
         offsetY: 0
     },
     enemy3: {
+        src: 'img/fiende3.png',
+        srcWidth: 616,
+        srcHeight: 127,
+        width: 154,
+        height: 127,
+        offsetX: 0,
+        offsetY: 0
+    },
+    enemy2: {
         src: 'img/sprites/player3.png',
         srcWidth: 128,
         srcHeight: 32,
@@ -77,13 +77,13 @@ let sources = {
         offsetY: 0
     },
     item: {
-        src: 'img/sprites/cavedude_side2.png',
+        src: 'img/paket 1.png',
         srcWidth: 32,
         srcHeight: 32,
         width: 96,
         height: 96,
-        offsetX: 192,
-        offsetY: 480
+        offsetX: 0,
+        offsetY: 0
     },
     grass: {
         src: 'img/sprites/cavedude_side2.png',
@@ -95,12 +95,12 @@ let sources = {
         offsetY: 0
     },
     lava: {
-        src: 'img/sprites/cavedude_side2.png',
+        src: 'img/lava.png',
         srcWidth: 32,
         srcHeight: 32,
         width: 32,
         height: 32,
-        offsetX: 96,
+        offsetX: 0,
         offsetY: 0
     },
     ground: {
@@ -113,13 +113,13 @@ let sources = {
         offsetY: 0
     },
     platformC: {
-        src: 'img/sprites/cavedude_side2.png',
-        srcWidth: 32,
-        srcHeight: 32,
-        width: 32,
-        height: 32,
-        offsetX: 32,
-        offsetY: 480
+        src: 'img/plattform 1.png',
+        srcWidth: 193,
+        srcHeight: 41,
+        width: 193,
+        height: 41,
+        offsetX: 0,
+        offsetY: 0
     },
     MovingPlatform: {
         src: 'img/asteroid1.png',
@@ -130,13 +130,13 @@ let sources = {
 
     },
     MovingPlatform2: {
-        src: 'img/sprites/cavedude_side2.png',
-        srcWidth: 32,
-        srcHeight: 32,
-        width: 32,
-        height: 32,
-        offsetX: 32,
-        offsetY: 480
+        src: 'img/asteroid 2.png',
+        srcWidth: 52,
+        srcHeight: 56,
+        width: 52,
+        height: 56,
+        offsetX: 0,
+        offsetY: 0
     },
     platformL: {
         src: 'img/sprites/cavedude_side2.png',
@@ -185,13 +185,13 @@ let sources = {
         offsetY: 0
     },
     cloud: {
-        src: 'img/sprites/cavedude_side2.png',
-        srcWidth: 224,
-        srcHeight: 96,
-        width: 224,
-        height: 96,
+        src: 'img/stjärna.png',
+        srcWidth: 8,
+        srcHeight: 8,
+        width: 8,
+        height: 8,
         offsetX: 0,
-        offsetY: 320
+        offsetY: 0
     },
     cloud2: {
         src: 'img/sprites/cavedude_side2.png',
@@ -211,5 +211,5 @@ let sources = {
         offsetX: 352,
         offsetY: 320
     },
-    map1: {src: 'img/maps/debugmap.png'}
+    map1: {src: 'img/maps/julspel-m2.png'}
 };
